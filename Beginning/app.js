@@ -59,3 +59,17 @@
     console.log(merhaba);
     console.log(typeof merhaba);
 // -----------------------------------
+    var f = 10;
+    var g = f;
+    console.log(a,g);
+    f = 20;
+    console.log(a,g);
+// -----------------------------------
+    var h = [1,2,3];
+    var i = h;
+    console.log(h,i);
+    console.log(typeof i);
+    console.log(typeof h);
+    h.push(4);
+    console.log(h);
+// ----------------------------------
