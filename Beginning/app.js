@@ -53,3 +53,9 @@
     console.log(date);
     console.log(typeof date);
 // -----------------------------------
+    var merhaba = function(){
+        console.log("Merhaba");
+    }
+    console.log(merhaba);
+    console.log(typeof merhaba);
+// -----------------------------------
