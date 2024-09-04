@@ -48,8 +48,15 @@
     console.log(value);
     value = firstname.charAt(3);
     console.log(value);
-    
-   
-
 // ---------------------------
+    value = langs.split(",");
+    console.log(value)
+// ---------------------------
+    value = langs.replace("Python","Css");
+    console.log(value);
+    console.log(langs);
+// ---------------------------
+    value = langs.includes("Java");
+    console.log(value);
+    console.log(typeof value);
 // ---------------------------
