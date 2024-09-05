@@ -43,5 +43,10 @@
 // --------------------------------------
         a.sort(function(x,z){
                 return x-z;
-;        });
+        });
         console.log(a); 
+// --------------------------------------
+        a.sort(function(x,y){
+                return x-y;
+        });
+        console.log(a);
