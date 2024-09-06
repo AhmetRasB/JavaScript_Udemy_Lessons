@@ -40,3 +40,7 @@
         console.log("selam "+ name);
     }
     selam("ahmet");
+// --------------------------------
+(function (name){
+    console.log("Merhaba" + name);
+})("Murat")
