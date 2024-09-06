@@ -6,8 +6,8 @@
     merhaba();
 // ----------------------------------
     function test(name,age){
-        if(typeof name === "undefined") name = "Bilgi Yok";
-        if(typeof age === "undefined") age = "Bilgi Yok";
+        if(typeof name == "undefined") name = "Bilgi Yok";
+        if(typeof age == "undefined") age = "Bilgi Yok";
         console.log(`İsim ${name} Yaş ${age}`);
         let ahmet = 12;
     }
@@ -27,11 +27,16 @@
 // ---------------------------------
    
     function square(x){
-        console.log("Karenin alanı = " + x*x);
+        console.log(x*x);
     }
     function cube(x){
-        console.log("Küpün Alanı = " + x*x*x);
+        console.log(x*x*x);
     }
 
      let a = square(2);
-     let b = cube(2);
+     let b = cube(square(12));
+// ---------------------------------
+    const selam = function(name){
+        console.log("selam "+ name);
+    }
+    selam("ahmet");
