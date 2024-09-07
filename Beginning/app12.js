@@ -43,4 +43,21 @@
 // --------------------------------
 (function (name){
     console.log("Merhaba" + name);
-})("Murat")
+})("Murat");
+    const database = {
+        host: "localhost",
+        add: function(){
+            console.log("Eklendi");
+        },
+        get: function(){
+            console.log("Elde Edildi");
+        },
+        update: function(){
+            console.log(`ID: ${id} Güncellendi`);
+        },
+        delete: function(){
+            console.log(`ID: ${id}`)
+        }
+
+
+    }
