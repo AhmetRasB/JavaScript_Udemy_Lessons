@@ -38,13 +38,18 @@
 // -------------------------------------
     value = window.outerHeight;
     console.log(value);
+// -------------------------------------
     value = window.outerWidth;
     console.log(value);
+// -------------------------------------
     value = window.innerHeight;
     console.log(value);
+// -------------------------------------
     value = window.innerWidth;
     console.log(value);
 // -------------------------------------
     value = window.scrollX;
     console.log(value);
 // -------------------------------------
+    value = window.scrollY;
+    console.log(value);
