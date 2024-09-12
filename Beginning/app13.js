@@ -13,3 +13,14 @@
         return users.name;
     });
     console.log(names);
+    console.log(users);
+
+// ----------------------------------------------
+
+    const user = {
+        name:"Mustafa",
+        age:25
+    };
+    for(let key in user){
+        console.log(key);
+    }
