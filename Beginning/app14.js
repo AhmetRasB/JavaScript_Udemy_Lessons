@@ -44,3 +44,7 @@
     console.log(value);
     value = window.innerWidth;
     console.log(value);
+// -------------------------------------
+    value = window.scrollX;
+    console.log(value);
+// -------------------------------------
