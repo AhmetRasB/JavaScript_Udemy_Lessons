@@ -32,3 +32,15 @@
     //     console.log("Sayfa Yenilenemedi");
     // }
 // -------------------------------------
+    let value;
+    // value = window.outerHeight;
+    // console.log(value);
+// -------------------------------------
+    value = window.outerHeight;
+    console.log(value);
+    value = window.outerWidth;
+    console.log(value);
+    value = window.innerHeight;
+    console.log(value);
+    value = window.innerWidth;
+    console.log(value);
