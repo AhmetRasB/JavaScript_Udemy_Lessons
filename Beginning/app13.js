@@ -16,11 +16,11 @@
     console.log(users);
 
 // ----------------------------------------------
-
     const user = {
         name:"Mustafa",
         age:25
     };
     for(let key in user){
-        console.log(key);
+        console.log(key,user[key]);
     }
+// ----------------------------------------------
