@@ -16,11 +16,19 @@
     //     console.log("Doğru");
     // }
 // ------------------------------------
-    let value;
-    value = window;
-    console.log(value);
-    value = window.location;
-    console.log(value);
-    value = window.location.hostname;
-    console.log(value);
-    
+    // let value;
+    // value = window;
+    // console.log(value);
+    // value = window.location;
+    // console.log(value);
+    // value = window.location.hostname;
+    // console.log(value);
+    // value = window.location.href;
+    // console.log(value);
+    // if(confirm("Sayfa Yenilensin mi? ")){
+    //     window.location.reload();
+    // }
+    // else{
+    //     console.log("Sayfa Yenilenemedi");
+    // }
+// -------------------------------------
