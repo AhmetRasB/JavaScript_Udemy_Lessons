@@ -29,3 +29,4 @@
     console.log(value1);
     console.log(value2); // app15.js:30 Uncaught ReferenceError: b is not defined when variabla is b 
     console.log(value3);
+    // USE LET AND CONST DON'T USE VAR
