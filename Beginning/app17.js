@@ -29,5 +29,10 @@ console.log(element);
 
 // Query-Selector Css Selector - Tek bir Element
     element = document.querySelector("#todo-form");
+    console.log(element);
+    element = document.querySelector("#tasks-title");
+    console.log(element);
+    element = document.querySelector(".list-group-item");
+    console.log(element);
     element = document.querySelector("#tasks-title");
     console.log(element);
