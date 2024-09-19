@@ -42,3 +42,7 @@
 // Query-SelectorAll - Tüm Elementleri Seç
     element = document.querySelectorAll("li");
     console.log(element);
+// Foreach QuerySelectorAll
+    element.forEach(function(el){
+        console.log(el); //Node List
+    })
