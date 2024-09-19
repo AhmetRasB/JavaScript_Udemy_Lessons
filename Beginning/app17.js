@@ -1,31 +1,31 @@
 // Choosing Id for Elements
-let element;
+    let element;
 
-element = document.getElementById("todo-form");
+    element = document.getElementById("todo-form");
 
-console.log(element);
+    console.log(element);
 
-element = document.getElementById("tasks-title");
+    element = document.getElementById("tasks-title");
 
-console.log(element);
-// - Class'a göre seçme
+    console.log(element);
+    // - Class'a göre seçme
 
-element = document.getElementsByClassName("list-group-item");
+    element = document.getElementsByClassName("list-group-item");
 
-console.log(element);
+    console.log(element);
 
-element = document.getElementsByClassName("card-header");
+    element = document.getElementsByClassName("card-header");
 
-console.log(element);
-// - Tag a göre seçme - 
+    console.log(element);
+    // - Tag a göre seçme - 
 
-element = document.getElementsByTagName("li");
+    element = document.getElementsByTagName("li");
 
-console.log(element);
+    console.log(element);
 
-element = document.getElementsByTagName("div");
+    element = document.getElementsByTagName("div");
 
-console.log(element);
+    console.log(element);
 
 // Query-Selector Css Selector - Tek bir Element
     element = document.querySelector("#todo-form");
@@ -40,3 +40,5 @@ console.log(element);
     console.log(element);
     
 // Query-SelectorAll - Tüm Elementleri Seç
+    element = document.querySelectorAll("li");
+    console.log(element);
