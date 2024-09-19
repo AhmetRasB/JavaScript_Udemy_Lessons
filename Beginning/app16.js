@@ -24,14 +24,20 @@
 //         console.log(collection);
 //     });
 // // ----------------------------------------------
-    value = document.links;
-    value = document.links[0];
-    value = document.links[document.links.length-1];
-    value = document.links[document.links.length-1].getAttribute("class");
-    value = document.links[document.links.length-1].getAttribute("href");
-    value = document.links[document.links.length].className;
-    value = document.links[document.links.length].classList;
-    
-    console.log(value);
-
-    
+       value = document.links;
+       value = document.links[0];
+       value = document.links[document.links.length-1];
+       value = document.links[document.links.length-1].getAttribute("class");
+       value = document.links[document.links.length-1].getAttribute("href");
+       value = document.links[document.links.length-1].className;
+       value = document.links[document.links.length-1].classList;
+       value = document.links[document.links.length-1].classList;
+       console.log(value);
+// // ---------------------FORMLAR-------------------------
+       value = document.forms;
+       value = document.forms.length;
+       value = document.forms[0];
+       value = document.forms["form"];
+       value = document.forms[0].id;
+       value = document.forms[0].getAttribute("id");
+       console.log(value);
