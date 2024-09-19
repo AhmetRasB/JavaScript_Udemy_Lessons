@@ -26,3 +26,8 @@ console.log(element);
 element = document.getElementsByTagName("div");
 
 console.log(element);
+
+// Query-Selector Css Selector - Tek bir Element
+    element = document.querySelector("#todo-form");
+    element = document.querySelector("#tasks-title");
+    console.log(element);
