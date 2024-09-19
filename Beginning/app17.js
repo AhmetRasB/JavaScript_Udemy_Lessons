@@ -17,7 +17,7 @@ console.log(element);
 element = document.getElementsByClassName("card-header");
 
 console.log(element);
-// - Tag a göre seçme
+// - Tag a göre seçme - 
 
 element = document.getElementsByTagName("li");
 
