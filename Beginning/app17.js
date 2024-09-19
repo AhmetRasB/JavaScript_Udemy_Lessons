@@ -34,5 +34,9 @@ console.log(element);
     console.log(element);
     element = document.querySelector(".list-group-item");
     console.log(element);
-    element = document.querySelector("#tasks-title");
+    element = document.querySelector("li");
     console.log(element);
+    element = document.querySelector("div");
+    console.log(element);
+    
+// Query-SelectorAll - Tüm Elementleri Seç
