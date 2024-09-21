@@ -1,4 +1,4 @@
-    const element = document.querySelector("#clear-todos");
+    // const element = document.querySelector("#clear-todos");
     // console.log(element.id);
     // console.log(element.className);
     // console.log(element.classList);
@@ -24,3 +24,8 @@
     //     el.style.color = "red";
     //     el.style.backgroundColor = "yellow";
     // });
+    var element2 = document.querySelector("li:first-child");
+    console.log(element2);
+    var element2 = document.querySelector("li:last-child");
+    console.log(element2);
+    
