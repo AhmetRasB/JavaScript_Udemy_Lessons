@@ -7,3 +7,4 @@ console.log(ele.classList[1]);
 console.log(ele.classList[0]);
 console.log(ele.textContent);
 console.log(ele.innerHTML);
+console.log(ele.href);
