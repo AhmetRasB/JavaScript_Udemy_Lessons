@@ -24,8 +24,8 @@
     //     el.style.color = "red";
     //     el.style.backgroundColor = "yellow";
     // });
-    var element2 = document.querySelector("li:first-child");
-    console.log(element2);
-    var element2 = document.querySelector("li:last-child");
-    console.log(element2);
-    
+    // var element2 = document.querySelector("li:first-child");
+    // console.log(element2);
+    // var element2 = document.querySelector("li:last-child");
+    // console.log(element2);
+// ----------------------------------------
