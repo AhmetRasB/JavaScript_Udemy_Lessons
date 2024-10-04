@@ -34,3 +34,4 @@ newlink.appendChild(document.createTextNode("Farklı Sayfaya Git"));
 cardbody.appendChild(newlink);
 console.log(cardbody);
 console.log(newlink);
+
