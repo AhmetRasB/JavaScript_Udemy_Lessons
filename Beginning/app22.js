@@ -1,6 +1,12 @@
-const todoList = document.querySelector("ul.lis-group");
-const todos = document.querySelectorAll("li.list-group-item");
-todos[0].remove;
-console.log(todoList);
-console.log(todos);
-todoList.removeChild(todoList.lastElementChild);
+// const cardbody = document.querySelectorAll(".card-body")[1];
+// const newElement = document.createElement("h3");
+
+// newElement.className = "card-title";
+// newElement.id = "tasks-title";
+// newElement.textContent = "Yeni Todolar";
+
+// const oldElement = document.querySelector("#task-title");
+// cardbody.replaceChild(newElement,oldElement);
+// console.log(cardbody);
+// console.log(newElement);
+// console.log(oldElement);
