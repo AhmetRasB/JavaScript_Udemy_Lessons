@@ -11,12 +11,14 @@ const addvalue = document.querySelector("#addvalue");
 const deletekey = document.querySelector("#deletekey");
 
 add.addEventListener("click",addItem);
-add.addEventListener("click",deleteItem);
-add.addEventListener("click",clearItem);
+del.addEventListener("click",deleteItem);
+clear.addEventListener("click",clearItem);
 function addItem(e){
     sessionStorage.setItem(addkey.value,addvalue.value);
 }
-function deleteItem(e){}
+function deleteItem(e){
+    sessionStorage.removeItem(deletekey.value);
+}
 function clearItem(es){
-    
+    sessionStorage.clear();
 }
